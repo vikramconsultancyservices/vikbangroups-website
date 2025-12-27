@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- ============ META & SEO ============ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Vikban Groups — Empowering Innovation through Software, AI, and Cloud Solutions. Delivering global technology excellence with reliability and innovation." />
+  <meta name="keywords" content="Vikban Groups, Software Development, AI Solutions, Cloud Services, Web Development, IT Consulting, Automation, Digital Transformation" />
+  <meta name="author" content="Vikban Groups" />
+   <!-- ============ PAGE TITLE ============ -->
+    <title>{% block title %}Vikban Groups{% endblock %}</title>
+      <!-- ============ PERFORMANCE PREFETCH ============ -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+      <!-- ============ STYLESHEETS ============ -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../components/header.html">
+    <link rel="stylesheet" href="../components/footer.css">
+    <link rel="stylesheet" href="../js/main.js">
+     <!-- Font Awesome (for icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-VvLk+nIhWZp1E0SlVg7TzP8PoRbi7xIjSCOcQ7g4M6B1+8yHnFQoApXspxwIu9dbbSIVv7KMkqD1yO5+aP/9lw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+<!-- ============ FAVICON & THEME ============ -->
+  <link rel="icon" href="../assets/images/Vikban_Groups_png.png" type="image/png" />
+  <meta name="theme-color" content="#0b1a2e" />
+
+  <!-- ============ SOCIAL META (OG TAGS) ============ -->
+  <meta property="og:title" content="Vikban Groups | Empowering Innovation" />
+  <meta property="og:description" content="Building the Future of Technology — AI, Software & Cloud Solutions by Vikban Groups." />
+  <meta property="og:image" content="../assets/images/Vikban_Groups1_jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vikbangroups.com/" />
+
+  <!-- ============ JS FILES ============ -->
+  <script src="../js/utils.js" defer></script>
+  <!-- <script src="../js/animations.js" defer></script>
+  <script src="../js/clients-scroll.js" defer></script> -->
+  <script src="../js//main.js" defer></script>
+</head>
+<body>
+
+     <!-- ============ HEADER PLACEHOLDER ============ -->
+  <div class="site-header-wrapper">
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-left">
+        <a href="mailto:info@vikban.com">
+          <i class="fas fa-envelope"></i> info@vikban.com
+        </a>
+      </div>
+      <div class="top-right">
+        <a href="https://facebook.com/vikbangroups"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/vikbangroups"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/company/vikbangroups"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/vikbangroups"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/vikbangroups"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN HEADER -->
+  <header class="site-header" id="header" role="banner">
+    <div class="header-content">
+
+      <!-- Logo + Brand -->
+       <div class="header-col logo-col">
+        <a href="index.html" class="logo-link">
+          <img src="assets/images/Vikban_Groups1_jpg.jpg" alt="Vikban Groups" class="logo-img">
+        </a>
+        <div class="brand-name">
+          <h1>Vikban Groups</h1>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="header-col nav-col">
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="services.html">Services</a></li>
+            <li class="nav-item"><a href="ai-solutions.html">AI Solutions</a></li>
+            <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+</div>
+
+  <!-- ============ PAGE CONTENT ============ -->
+  <main id="main-content">
+    <!-- Each page (index, about, services, etc.) will load inside this layout -->
+    <div class="page-bg"></div>
+    <section class="main-content">
+      <!-- Page-specific content goes here -->
+    </section>
+  </main>
+
+  <!-- ============ FOOTER PLACEHOLDER ============ -->
+  <div id="footer"></div>
+
+  <!-- ============ NO-SCRIPT NOTICE ============ -->
+  <noscript>
+    <p style="text-align:center; padding:1rem; background:#ffdddd; color:#900; font-weight:600;">
+      ⚠️ JavaScript is required for full functionality of this website.
+    </p>
+  </noscript>
+
+<!--Old Main content will be injected here-->
+  <!-- {% include '../components/header.html' %}
+    
+    <main>
+        {% block content %}        
+        {% endblock %}
+    </main>
+    
+    {% include '../components/footer.html' %}
+    
+    <script src="../js/main.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/utils.js"></script> -->
+    
+</body>
+</html>
