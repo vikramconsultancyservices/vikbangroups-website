@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Vikban Groups</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css?v=3.0">
+
+  <!-- Theme Support -->
+  <script src="js/theme.js"></script>
+</head>
+<body>
+  <!-- Gradient Background -->
+  <div class="page-bg"></div>
+
+  <!-- Header -->
+  <!-- HEADER WRAPPER (space reserver) -->
+<div class="site-header-wrapper">
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-left">
+        <a href="mailto:info@vikban.com">
+          <i class="fas fa-envelope"></i> info@vikban.com
+        </a>
+      </div>
+      <div class="top-right">
+        <a href="https://facebook.com/vikbangroups"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/vikbangroups"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/company/vikbangroups"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/vikbangroups"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/vikbangroups"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN HEADER -->
+  <header class="site-header" id="header" role="banner">
+    <div class="header-content">
+
+      <!-- Logo + Brand -->
+       <div class="header-col logo-col">
+        <a href="index.html" class="logo-link">
+          <img src="assets/images/Vikban_Groups1_jpg.jpg" alt="Vikban Groups" class="logo-img">
+        </a>
+        <div class="brand-name">
+          <h1>Vikban Groups</h1>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="header-col nav-col">
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="services.html">Services</a></li>
+            <li class="nav-item"><a href="ai-solutions.html">AI Solutions</a></li>
+            <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get in touch with Vikban Groups — your trusted partner for AI solutions, enterprise software, and digital transformation. Available 24/7 for support.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Our Offices</h2>
+        <div class="about-grid">
+          <!-- USA Office -->
+          <div class="about-card">
+            <h3>USA Office</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 811 Indiana Avenue<br>Near Dr. Martin Luther King Jr. Street<br>Indianapolis, IN 46222<br>United States</p>
+            <p><i class="fas fa-phone"></i> +1 4632747326</p>
+            <p><i class="fas fa-envelope"></i> info@vikbangroups.com</p>
+            <!-- Google Map -->
+            <iframe 
+              src="https://www.google.com/maps?q=811+Indiana+Avenue+Near+Dr.+Martin+Luther+King+Jr.+Street,+Indianapolis,+IN+46222&output=embed" 
+              width="100%" height="250" style="border:0; margin-top:1rem;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+          <!-- India Office -->
+          <div class="about-card">
+            <h3>India Office</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India<br>Hi-Tech City, HITEC Complex<br>Madhapur, Hyderabad 500081<br>Telangana, India</p>
+            <p><i class="fas fa-phone"></i> +91 40 61660350</p>
+            <p><i class="fas fa-envelope"></i> info@vikbangroups.com</p>
+            <!-- Google Map -->
+            <iframe 
+              src="https://www.google.com/maps?q=Hi-Tech+City,+HITEC+Complex,+Madhapur,+Hyderabad,+Telangana,+India&output=embed" 
+              width="100%" height="250" style="border:0; margin-top:1rem;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Send Us a Message</h2>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- Floating Chatbot -->
+  <!-- Chat Launcher -->
+<button id="chatbot-launcher" aria-label="Open chat">💬</button>
+
+<!-- Chat Window -->
+<div id="chatbot-window">
+
+  <div class="chat-header">
+    <span>Vikban Groups AI Assistant</span>
+    <button id="chatbot-close">&times;</button>
+  </div>
+
+  <div class="chat-body">
+
+    <!-- STEP 1: USER INFO -->
+    <div id="chat-user-info">
+      <img src="assets/images/VB_groups.jpg" alt="Vikban Groups Logo" class="chat-logo">
+      <h3 class="chat-welcome">Welcome to Vikban Groups</h3>
+      <p class="chat-intro">
+        Please share your details to start chatting.
+      </p>
+
+      <input type="text" id="chat-name" placeholder="Enter Your Name">
+      <input type="tel" id="chat-phone" placeholder="Enter Phone Number">
+      <button id="chat-start">Start Chat</button>
+    </div>
+
+    <!-- STEP 2: CHAT -->
+    <div id="chat-messages" style="display:none;">
+      <div class="bot-msg">Hello 👋 How can I assist you today?</div>
+    </div>
+
+  </div>
+
+  <div class="chat-footer" style="display:none;">
+    <input type="text" id="chat-input" placeholder="Type your message...">
+    <button id="chat-send">Send</button>
+  </div>
+
+</div>
+
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js" defer></script>
+
+ 
+  <style>
+    /* Contact Form Styling */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .contact-form .btn {
+      background: #4a90e2;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form .btn:hover {
+      background: #333;
+    }
+
+    /* Chatbot Floating Button */
+    #chatbot-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #4a90e2;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.2rem;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 1rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      z-index: 999;
+    }
+    #chatbot-toggle:hover {
+      background: #333;
+    }
+
+    /* Chat Window */
+    #chatbot-window {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 320px;
+      max-height: 450px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 1000;
+    }
+
+    .chat-header {
+      background: #4a90e2;
+      color: white;
+      padding: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Orbitron', sans-serif;
+    }
+    .chat-header button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .chat-body {
+      padding: 1rem;
+      flex: 1;
+      overflow-y: auto;
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-footer {
+      display: flex;
+      padding: 0.5rem;
+      border-top: 1px solid #eee;
+    }
+    .chat-footer input {
+      flex: 1;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-right: 0.5rem;
+    }
+    .chat-footer button {
+      background: #4a90e2;
+      color: white;
+      border: none;
+      padding: 0.5rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    /* Chat Messages */
+    .bot-msg, .user-msg {
+      padding: 0.6rem 0.8rem;
+      margin: 0.3rem 0;
+      border-radius: 8px;
+      max-width: 80%;
+    }
+    .bot-msg {
+      background: #f0f0f0;
+      align-self: flex-start;
+    }
+    .user-msg {
+      background: #4a90e2;
+      color: white;
+      align-self: flex-end;
+    }
+    /* Chat Intro Section */
+    #chat-user-info {
+    text-align: center;
+    padding: 1rem;
+    }
+    /* .chat-welcome {
+    font-size: 1.1rem;
+    color: #4a90e2;
+    margin-bottom: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
+    }
+    .chat-intro {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    } */
+    #chat-user-info input {
+    width: 90%;
+    padding: 0.6rem;
+    margin: 0.5rem 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    }
+    #chat-user-info button {
+    margin-top: 0.8rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    }
+    #chat-user-info button:hover {
+    background: #333;
+    }
+    .chat-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .chat-welcome {
+    font-size: 1.1rem;
+    color: #4a90e2;
+    margin-bottom: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
+    }
+    .chat-intro {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    }
+
+
+  </style>
+</body>
+</html>

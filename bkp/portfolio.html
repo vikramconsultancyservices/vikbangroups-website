@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Vikban Groups</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Global Styles -->
+  <link rel="stylesheet" href="css/styles.css?v=3.0">
+
+  <!-- Theme Support -->
+  <script src="js/theme.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/Vikban_Groups_icon.ico">
+</head>
+
+<body>
+
+  <!-- Gradient Background -->
+  <div class="page-bg"></div>
+
+  <!-- ✅ REQUIRED HEADER WRAPPER -->
+  <!-- HEADER WRAPPER (space reserver) -->
+<div class="site-header-wrapper">
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-left">
+        <a href="mailto:info@vikban.com">
+          <i class="fas fa-envelope"></i> info@vikban.com
+        </a>
+      </div>
+      <div class="top-right">
+        <a href="https://facebook.com/vikbangroups"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/vikbangroups"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/company/vikbangroups"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/vikbangroups"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/vikbangroups"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN HEADER -->
+  <header class="site-header" id="header" role="banner">
+  <div class="header-content">
+
+    <!-- Logo + Brand -->
+    <div class="header-col logo-col">
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/Vikban_Groups1_jpg.jpg" alt="Vikban Groups" class="logo-img">
+      </a>
+      <div class="brand-name">
+        <h1>Vikban Groups</h1>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="header-col nav-col">
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="services.html">Services</a></li>
+          <li class="nav-item"><a href="ai-solutions.html">AI Solutions</a></li>
+          <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+      <div class="container">
+        <h1>Our Portfolio</h1>
+        <p>
+          Delivering innovative IT & AI projects that empower industries
+          and transform businesses worldwide
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <i class="fas fa-hospital"></i>
+            <h3>Healthcare AI System</h3>
+            <p>Predictive AI models for patient risk assessment and medical coding automation.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-store"></i>
+            <h3>Retail Inventory Management</h3>
+            <p>AI-powered demand forecasting to reduce stockouts.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Financial Analytics Dashboard</h3>
+            <p>Fraud detection and predictive analytics.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-user-graduate"></i>
+            <h3>E-Learning Platform</h3>
+            <p>AI-enabled CPC/CCS learning and placements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ CLIENT SCROLL SECTION (WORKING) -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Our Trusted Clients</h2>
+        <p class="center">Partnering with industry leaders across sectors</p>
+
+        <div class="scroll-wrapper">
+          <button class="scroll-btn left" aria-label="Scroll left">‹</button>
+           <!-- Clinet Cards  -->
+          <div class="scroll-container" id="clientScroll">           
+            <!-- Client One -->
+            <div class="client-card">
+            <div class="logo-container">
+              <img
+                src="assets/images/clients/ICODE-logo.jpg"
+                alt="I Code Health Care Solutions"
+                class="client-logo"
+              />
+            </div>
+
+            <h3 class="client-name">I Code Health Care Solutions</h3>
+            <span class="domain-tag education">Education</span>
+
+            <p class="client-description">
+              Medical Coding Training Institutes<br>
+              Hyderabad, India<br>
+              <strong>2M+ students globally</strong>
+            </p>
+            </div>
+
+            <!-- Client Two -->
+             <div class="client-card">
+            <div class="logo-container">
+              <img
+                src="assets/images/clients/OneCode.png"
+                alt="One Code Solutions"
+                class="client-logo"
+              />
+            </div>
+
+            <h3 class="client-name">One Code Solutions</h3>
+            <span class="domain-tag education">Education</span>
+
+            <p class="client-description">
+              Medical Coding Training Institutes<br>
+              Vijayawda, India<br>
+              <strong>1M+ students globally</strong>
+            </p>
+            </div>
+            <!-- Client Three -->
+             <div class="client-card">
+            <div class="logo-container">
+              <img
+                src="assets/images/clients/ICODE-logo.jpg"
+                alt="I Code Health Care Solutions"
+                class="client-logo"
+              />
+            </div>
+
+            <h3 class="client-name">I Code Health Care Solutions</h3>
+            <span class="domain-tag education">Education</span>
+
+            <p class="client-description">
+              Medical Coding Training Institutes<br>
+              Hyderabad, India<br>
+              <strong>2M+ students globally</strong>
+            </p>
+            </div>
+            <!-- Client Four -->
+              <div class="client-card">
+            <div class="logo-container">
+              <img
+                src="assets/images/clients/OneCode.png"
+                alt="One Code Solutions"
+                class="client-logo"
+              />
+            </div>
+
+            <h3 class="client-name">One Code Solutions</h3>
+            <span class="domain-tag education">Education</span>
+
+            <p class="client-description">
+              Medical Coding Training Institutes<br>
+              Vijayawda, India<br>
+              <strong>1M+ students globally</strong>
+            </p>
+            </div>
+              <!-- Client Five -->
+                <div class="client-card">
+            <div class="logo-container">
+              <img
+                src="assets/images/clients/ICODE-logo.jpg"
+                alt="I Code Health Care Solutions"
+                class="client-logo"
+              />
+            </div>
+
+            <h3 class="client-name">I Code Health Care Solutions</h3>
+            <span class="domain-tag education">Education</span>
+
+            <p class="client-description">
+              Medical Coding Training Institutes<br>
+              Hyderabad, India<br>
+              <strong>2M+ students globally</strong>
+            </p>
+            </div>
+                <!-- Client Six -->
+                  
+          </div>
+          
+
+          
+
+          <button class="scroll-btn right" aria-label="Scroll right">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Businesses Trust Vikban Groups -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Why Businesses Trust Vikban Groups</h2>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <i class="fas fa-award"></i>
+            <h3>Proven Success</h3>
+            <p>50+ projects delivered with measurable impact.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-users"></i>
+            <h3>Expert Team</h3>
+            <p>Highly skilled AI engineers and developers.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Innovation Driven</h3>
+            <p>Future-ready, scalable AI solutions.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-handshake"></i>
+            <h3>Client-Centric</h3>
+            <p>Solutions aligned with real business needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- ✅ SINGLE JS OWNER -->
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>
